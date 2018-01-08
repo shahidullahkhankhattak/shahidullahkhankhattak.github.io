@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://www.shahidullahkhan.com/sitemaps.xml

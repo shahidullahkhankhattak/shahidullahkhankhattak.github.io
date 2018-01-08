@@ -1,0 +1,14 @@
+[24-Sep-2017 07:49:01 UTC] PHP Notice:  Trying to get property of non-object in /home/galaxmoc/shahidullahkhan.com/process.php on line 7
+[24-Sep-2017 07:49:01 UTC] PHP Notice:  Trying to get property of non-object in /home/galaxmoc/shahidullahkhan.com/process.php on line 8
+[24-Sep-2017 07:49:01 UTC] PHP Notice:  Trying to get property of non-object in /home/galaxmoc/shahidullahkhan.com/process.php on line 9
+[24-Sep-2017 07:49:01 UTC] PHP Notice:  Trying to get property of non-object in /home/galaxmoc/shahidullahkhan.com/process.php on line 10
+[24-Sep-2017 07:49:01 UTC] PHP Notice:  Trying to get property of non-object in /home/galaxmoc/shahidullahkhan.com/process.php on line 11
+[24-Sep-2017 07:51:44 UTC] PHP Notice:  Trying to get property of non-object in /home/galaxmoc/shahidullahkhan.com/process.php on line 7
+[24-Sep-2017 07:51:44 UTC] PHP Notice:  Trying to get property of non-object in /home/galaxmoc/shahidullahkhan.com/process.php on line 8
+[24-Sep-2017 07:51:44 UTC] PHP Notice:  Trying to get property of non-object in /home/galaxmoc/shahidullahkhan.com/process.php on line 9
+[24-Sep-2017 07:51:44 UTC] PHP Notice:  Trying to get property of non-object in /home/galaxmoc/shahidullahkhan.com/process.php on line 10
+[24-Sep-2017 07:51:44 UTC] PHP Notice:  Trying to get property of non-object in /home/galaxmoc/shahidullahkhan.com/process.php on line 11
+[24-Sep-2017 07:53:00 UTC] PHP Notice:  Undefined property: stdClass::$budget in /home/galaxmoc/shahidullahkhan.com/process.php on line 11
+[24-Sep-2017 07:55:09 UTC] PHP Notice:  Undefined property: stdClass::$budget in /home/galaxmoc/shahidullahkhan.com/process.php on line 11
+[24-Sep-2017 07:57:07 UTC] PHP Notice:  Undefined property: stdClass::$budget in /home/galaxmoc/shahidullahkhan.com/process.php on line 11
+[24-Sep-2017 07:58:24 UTC] PHP Notice:  Undefined property: stdClass::$budget in /home/galaxmoc/shahidullahkhan.com/process.php on line 11
