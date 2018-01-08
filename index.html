@@ -17,7 +17,7 @@
   <meta name="author" content="Shahid Ullah Khan">
   <meta name="robots" content="index,follow">
   <meta name="DC.title" content="Shahid Ullah Khan - Web Developer">
-  
+
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@Shahidullahkhan.com">
   <meta name="twitter:title" content="Shahid Ullah Khan">
@@ -63,7 +63,7 @@
   <!--[if lt IE 9]>
       <script src="assets/js/html5shiv.js"></script>
   <![endif]-->
-  <script type='application/ld+json'> 
+  <script type='application/ld+json'>
     {
       "@context": "http://www.schema.org",
       "@type": "person",
@@ -89,7 +89,7 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-    
+
       gtag('config', 'UA-106912900-1');
     </script>
     <meta name="msvalidate.01" content="F92854E3B18C59E24BA2687AC40F943A" />
@@ -135,21 +135,94 @@
   </div>
   <!-- end option panel -->
 
-  <!-- Preloader --> 
+  <!-- Preloader -->
     <div id="preloader">
       <div class="loader">
             <svg class="circle-loader" height="50" width="50">
               <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="6" stroke-miterlimit="10" />
             </svg>
-        </div>    
+        </div>
     </div><!--preloader end-->
 
   <!-- Main Container -->
   <main id="app" class="main-section">
     <!-- header navigation start -->
-    <?php
-        include("./incs/head.php");
-    ?>
+    <header id="navigation" class="root-sec white nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="nav-inner">
+              <nav class="primary-nav">
+                <div class="clearfix nav-wrapper">
+                  <a href="#home" class="left brand-logo menu-smooth-scroll" data-section="#home" title="web develeloper logo"><img src="images/logo.png" alt="i, Web Developer Logo">
+                  </a>
+                  <a href="#" data-activates="mobile-demo" class="button-collapse" title="navigation link"><i class="mdi-navigation-menu"></i></a>
+                  <ul class="right static-menu">
+                    <li class="search-form-li">
+                      <a id="initSearchIcon" class="" title="action link"><i class="mdi-action-search"></i> </a>
+                      <div class="search-form-wrap hide">
+                        <form action="#" class="">
+                          <input type="search" class="search">
+                          <button type="submit"><i class="mdi-action-search"></i>
+                          </button>
+                        </form>
+                      </div>
+                    </li>
+                    <!-- <li>
+                      <a class="dropdown-button blog-submenu-init" href="#!" data-activates="dropdown1">
+                        <i class="mdi-navigation-more-vert right"></i>
+                      </a>
+                    </li> -->
+                  </ul>
+                  <ul class="inline-menu side-nav" id="mobile-demo">
+
+                    <!-- Mini Profile // only visible in Tab and Mobile -->
+                    <li class="mobile-profile">
+                      <div class="profile-inner">
+                        <div class="pp-container">
+                          <img src="images/person.jpg" alt="i, Shahid Ullah Khan">
+                        </div>
+                        <h3>Shahid Ullah Khan</h3>
+                        <h5>UI / UX / Javascript / PHP Expert</h5>
+                      </div>
+                    </li><!-- mini profile end-->
+
+
+                    <li><a href="#about" data-section="#about" class="menu-smooth-scroll" title="about"><i class="fa fa-user fa-fw"></i>About Me</a>
+                    </li>
+                    <li><a href="#resume" data-section="#resume" class="menu-smooth-scroll" title="resume"><i class="fa fa-file-text fa-fw"></i>Resume</a>
+                    </li>
+                    <li><a href="#portfolio" data-section="#portfolio" class="menu-smooth-scroll" title="portfollio"><i class="fa fa-briefcase fa-fw"></i>Portfolio</a>
+                    </li>
+                    <!-- <li><a href="#team" data-section="#team" class="menu-smooth-scroll"><i class="fa fa-users fa-fw"></i>Team</a>
+                    </li> -->
+                    <li><a href="#testimonial" data-section="#testimonial" class="menu-smooth-scroll" title="testimonial"><i class="fa fa-comments fa-fw"></i>Testimonial</a>
+                    </li>
+                    <li><a href="#blog" data-section="#blog" class="menu-smooth-scroll" title="blog"><i class="fa fa-pencil fa-fw"></i>Interests</a>
+                    </li>
+                    <li><a href="https://www.shahidullahkhan.com/blog/" title="blog"><i class="fa fa-pencil fa-fw"></i>Blog</a>
+                    </li>
+                    <li><a href="#contact" data-section="#contact" class="menu-smooth-scroll" title="contact"><i class="fa fa-paper-plane fa-fw"></i>Contact</a>
+                    </li>
+                  </ul>
+                  <!-- <ul id="dropdown1" class="inline-menu submenu-ul dropdown-content">
+                    <li>Home</li>
+                    <li><a href="blog.html">All Blog</a>
+                    </li>
+                    <li><a href="blog-with-sidebar.html">Blog with Sidebar</a>
+                    </li>
+                    <li><a >Single Blog</a>
+                    </li>
+                  </ul> -->
+
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- .container end -->
+    </header>
     <!-- #header  navigation end -->
 
     <!-- Home Section start -->
@@ -596,7 +669,7 @@
                                     <p>Galaxmo I.T Solutions</p>
                                 </div>
                                 <p class="rev-content">
-                                 
+
                                 </p>
                               </div>
                             </div>
@@ -768,7 +841,7 @@
           <div class="row">
             <div class="col-sm-12">
               <ul class="clearfix protfolio-item" id="protfolio-msnry">
-              
+
               <!-- Single Portfolio-->
                 <li class="single-port-item category-1">
                   <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="images/portfolio/saleoye.png" data-title="Sale Oye" data-content="One Platform for all sale products in pakistan." data-demo-link="http://www.saleoye.pk" title="sale oye project"> <!-- Portfolio pop-up content-->
@@ -976,7 +1049,7 @@
                               <a href="#" title="muhammad ali - the makers">Co - Founder, The Makers Inc</a>
                             </div>
                           </div>
-                        </div> 
+                        </div>
                       </div> <!-- #testimonialSlider end -->
                     </div>
                   </div>
@@ -1066,7 +1139,7 @@
                             <p class="post-content">Programming is usually creation of something new. When ever i program something i feel
                               being creative because i'm creating something new. I spend most of my time coding and developing new websites and softwares as it's my profession
                               as well as a hobby. It is interesting and is a good source to polish and grow your logics to a whole new level.
-                              it opens your mind and amplifies your logics.  
+                              it opens your mind and amplifies your logics.
                             </p>
                           </div>
                         </div>
@@ -1125,8 +1198,7 @@
                     <div class="clearfix card-panel grey lighten-5 cform-wrapper">
                       <form >
                         <div class="input-field submit-wrap clearfix">
-                          <br><br>
-                          <a class="left waves-effect btn-flat brand-text submit-btn">Contact Now</a>
+                          <a class="left waves-effect btn-flat brand-text submit-btn" href="https://www.shahidullahkhan.com#contact">Contact Now</a>
                           <div class="right form-loader-area">
                             <svg class="circular size-20" height="20" width="20">
                               <circle class="path" cx="10" cy="10" r="7" fill="none" stroke-width="3" stroke-miterlimit="10" />
@@ -1134,15 +1206,14 @@
                           </div>
                         </div>
                       </form>
-                    </div>
-                  </div> <!-- ./contact form end -->
+                  </div>
                 </div>
-              </div>
             </div>
           </div>
         </div>
       </div> <!-- ./container end -->
-      <div class="section-call-to-area">
+      <br><br><br>
+      <div class="section-call-to-area" style="margin-top:120px;">
         <div class="container">
           <div class="row">
             <a href="#home" class="btn-floating btn-large button-middle call-to-home section-call-to-btn animated btn-up btn-hidden" data-section="#home" title="left button">
@@ -1155,9 +1226,29 @@
     <!-- #contact Section end -->
 
     <!-- Footer Section end -->
-    <?php
-        include("./incs/foot.php");
-    ?>
+    <footer id="footer" class="root-sec white root-sec footer-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="clearfix footer-inner">
+              <ul class="left social-icons">
+                <li><a href="https://web.facebook.com/shahid.ullah.khan.khattak" target="_blank" class="tooltips tooltipped facebook" data-position="top" data-delay="50" data-tooltip="Facebook" title="shahidullahkhan facebook "><i class="fa fa-facebook"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/shahid-ullah-khan-b5b479137/" target="_blank" data-position="top" data-delay="50" data-tooltip="Linkdin" title="linkedin link"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li><a href="https://twitter.com/shahid_ullah_kh" target="_blank" class="tooltips tooltipped twitter" data-position="top" data-delay="50" data-tooltip="Twitter" title="twitter link"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li><a href="https://plus.google.com/u/0/+shahidUllahKhankhattak" target="_blank" class="tooltips tooltipped google-plus" data-position="top" data-delay="50" data-tooltip="Google Plus" title="google plus link"><i class="fa fa-google-plus"></i></a>
+                </li>
+              </ul> <!-- ./social icons end -->
+              <div class="right copyright">
+                <p>Shahid Ullah Khan &copy; All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ./container end-->
+    </footer>
     <!-- #footer end -->
 
   </main>
